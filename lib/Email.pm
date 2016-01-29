@@ -17,10 +17,13 @@
 package Email {
 use Modern::Perl;
 
-#Валидация структуры email адреса(<localpart>@<domain>)
-sub _validate_structure {
-    my $addres = $_[0];
-    $addres ~= m/^[^@]*@[^@]*$/;
+# Делим email адрес(<localpart>@<domain>) на <localpart> и <> domain
+sub _split_structure {
+    my ($addres) = @_;
+    my @parts = split /@/,$addres;  
+    my ($local_part, $domain) = @parts if @parts == 2;
+    return ($local_part || "INVALID", $domain || "INVALID");
 }
 
 1;
+}
