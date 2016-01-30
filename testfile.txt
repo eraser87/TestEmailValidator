@@ -6,3 +6,8 @@ sdfsdf@@@@@rdfdf
 example@localhost
 иван@иванов.рф
 ivan@xn--c1ad6a.xn--p1ai
+example1@example.com
+ex@ample2@example.com
+.example3@example.com
+example4@.example.com
+example@пример.рф
