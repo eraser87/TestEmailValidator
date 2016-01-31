@@ -7,7 +7,7 @@ TestEmailValidator
 TestEmailValidator - валидатор email адресов.
 Тестовое задание для REG.RU.
 
-Использование: perl email_validator.pl <FILENAME>
+Использование: perl email_validator.pl filename
 
 # DESCRIPTION
 
