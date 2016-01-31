@@ -18,7 +18,7 @@
 use Modern::Perl;
 use utf8;
 binmode(STDOUT,':utf8');
-use lib 'lib';
+use lib 'lib/TestValidator';
 use Counter;
 
 use Test::More tests => 1;                      # last test to print

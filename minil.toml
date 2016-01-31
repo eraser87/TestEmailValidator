@@ -1,4 +1,0 @@
-name = "TestEmailValidator"
-# badges = ["travis"]
-module_maker="ModuleBuildTiny"
-
